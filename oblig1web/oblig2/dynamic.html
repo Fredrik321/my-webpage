@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+
+    <!--Have to put it here to avoid errors on other pages-->
+    
+    <script>
+       
+                document.addEventListener("scroll", (event) => {
+        if(window.innerHeight>document.getElementById("copyrightcontainer").getBoundingClientRect().bottom-1){
+            loadDoc();
+        }
+        });
+       
+    </script>
+</head >
+<body>
+    <div id="topbox">
+        <div id="head">
+            <h3>Header logo</h3>
+            <ul>
+                <li><a href="index.html">Main page</a></li>
+                <li><a href="dynamic.html">Dynamic page</a></li>
+                <li><a href="weather.html">Weather Page</a></li>
+            </ul>
+        </div>
+
+    </div><!--Topbox-->
+    <div id="dynaContainer">
+    </div><!--dynaContainer-->
+ 
+</body>
+<footer>
+    <div id="copyrightcontainer">
+        <p style="color: white;">Copyright &copy</p>
+    </div>
+ 
+</footer>
+
