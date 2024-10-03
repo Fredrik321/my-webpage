@@ -1,74 +1,93 @@
 
 @font-face {
-    font-family: 'RobotoBlack';
-    src: url(/fonts/Roboto-Black.ttf);
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Black.ttf);
     font-weight: 1;
 }
 @font-face {
-    font-family: 'RobotoBlackitalic';
-    src: url(/fonts/Roboto-BlackItalic.ttf);
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-BlackItalic.ttf);
     font-weight: 2;
 }
 @font-face {
-    font-family: 'RobotoBold';
-    src: url(/fonts/Roboto-Bold.ttf);
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Bold.ttf);
     font-weight: 3;
 }
 @font-face {
-    font-family: 'RobotoBoldItalic';
-    src: url(/fonts/Roboto-BoldItalic.ttf);
-    font-weight: 900;
-}
-@font-face {
-    font-family: 'RobotoItalic';
-    src: url(/fonts/Roboto-Italic.ttf);
-    font-weight: 400;
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-BoldItalic.ttf);
+    font-weight: 4;
 }
 @font-face {
     font-family: 'Roboto';
-    src: url(/fonts/Roboto-Light.ttf);
+    src: url(../fonts/Roboto-Italic.ttf);
     font-weight: 5;
 }
 @font-face {
-    font-family: 'RobotoLightItalic';
-    src: url(/fonts/Roboto-LightItalic.ttf);
-    font-weight: 100;
-}@font-face {
-    font-family: 'RobotoMedium';
-    src: url(/fonts/Roboto-Medium.ttf);
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Light.ttf);
+    font-weight: 6;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-LightItalic.ttf);
     font-weight: 7;
 }@font-face {
     font-family: 'Roboto';
-    src: url(/fonts/Roboto-MediumItalic.ttf);
+    src: url(../fonts/Roboto-Medium.ttf);
     font-weight: 8;
 }@font-face {
-    font-family: 'RobotoRegular';
-    src: url(/fonts/Roboto-Regular.ttf);
-    font-weight: 300;
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-MediumItalic.ttf);
+    font-weight: 9;
 }@font-face {
     font-family: 'Roboto';
-    src: url(/fonts/Roboto-Thin.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
     font-weight: 10;
 }@font-face {
     font-family: 'Roboto';
-    src: url(/fonts/Roboto-ThinItalic.ttf);
+    src: url(../fonts/Roboto-Thin.ttf);
     font-weight: 11;
+}@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-ThinItalic.ttf);
+    font-weight: 12;
 }
 
 body{
     margin:auto;
-    font-family: "RobotoRegular";
 }
 
-li{
-    font-family: "RobotoRegular";
+h2{
+    font-family: "Roboto";
+    font-weight: 1;
 }
+
+
+blockquote >p{
+    font-family: "Roboto";
+    font-weight: 7
+}
+figcaption{
+    font-family: "Roboto";
+    font-weight: 1;
+}
+p{
+    font-family: "Roboto";
+    font-weight: 10;
+}
+#callToAction{
+    font-family: "Roboto";
+    font-weight: 3;
+}
+
+
 #randobox >h2{
-    font-family:"RobotoBold" ;
+
+    font-weight: 1;
 }
-#head >h3{
-    font-family: "RobotoBold";
-}
+
 #topbox{
     background-color: #1f2936;
     color: white;
@@ -79,7 +98,6 @@ li{
     display: table;
 }
 #toptext{
-    font-family: "RobotoBlack";
     font-size: 26px;
     width: 26%;
     float: left;
@@ -87,9 +105,7 @@ li{
     
 }
 #toptext >p{
-    font-family: "RobotoRegular";
     font-size: 16px;
-    font-weight: 2;
 }
 #bilde{
     width: 400px;
@@ -121,6 +137,8 @@ li{
 }
 #head > h3{
     text-align: center;
+    font-family: "Roboto";
+    font-weight: 3;
 }
 #toptext > button{
     background-color: #3792f5;
@@ -134,6 +152,8 @@ li{
 }
     
 li { 
+    font-family: "Roboto";
+    font-weight: 10;
     display:initial;
 }
 
@@ -156,7 +176,7 @@ li {
 }
 #box{
     border: solid 4px #3782f5;
-    width: 38%;
+    width: 34%;
     height: 170px;
     display: block;
     float: left;
@@ -165,7 +185,8 @@ li {
 }
 #box2{
     border: solid 4px  #3782f5;
-    width: 38%;
+    width: 34%;
+    max-width: 340px;
     height: 170px;
     display: block;
     float: right;
@@ -175,12 +196,12 @@ li {
 
 #text1{
     font-size: 19px;
-    font-family: "RobotoRegular";
+    
 }
 
 #text2{
     font-size: 20px;
-    font-family: "RobotoRegular";
+    
 }
 #text1{
     float: left;
@@ -206,7 +227,6 @@ li {
 }
 #quotebox >blockquote> p{
     color: black;
-    font-family: "RobotoLightItalic";
     font-size: 20px;
     text-shadow: -1px 1px 1px black;
     width: 30%;
@@ -217,7 +237,7 @@ li {
 
 #quotebox > figcaption{
     margin-left: 60%;
-    font-family: "RobotoBold";
+
 }
 
 
@@ -235,9 +255,7 @@ li {
     padding-left: 10%;
     padding-top: 0.5%;    
 }
-#innercall > p{
-    font-family: "RobotoRegular";
-}
+
 #innercall > button{
     background-color: rgb(62, 97, 221);
     border-color: white;
@@ -275,14 +293,15 @@ li {
     width: 30%;
     height: 250px;
     background-color: #1f2936;
-
     float: left;
     margin: 10px;
     border-radius: 8px;
     padding: 4px;
+    
 }
 .dynabox >p{
-    font-family: "RobotoRegular";
+    font-family: "Roboto";
+    font-weight: 10;
     margin: 8px;
     color: rgb(231, 220, 220);
     text-align:justify; 
